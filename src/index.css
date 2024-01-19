@@ -15,4 +15,51 @@
 
 .timer {
   font-size: 48px;
+  text-align: center;
+}
+
+.container {
+  width: 520px;
+  height: 450px;
+  border: 1px solid white;
+  border-radius: 15px;
+  margin: 0 auto;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lawngreen;
+}
+.images,
+.im {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+.images {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+input {
+  margin: 20px;
+  border: none;
+  padding: 5px 10px;
+}
+input[type='number'] {
+  background-color: rgb(229, 27, 236);
+}
+button {
+  padding: 5px 10px;
+  margin: 10px;
+  color: rgb(25, 25, 221);
+  font-weight: 800;
+  background-color: aqua;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -20px;
 }
